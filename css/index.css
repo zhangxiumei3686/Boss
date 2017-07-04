@@ -1,0 +1,40 @@
+.conWidth{width:1170px;margin:0 auto;}
+a{color:#61687c;}
+.contentLeft i{background-image: url(../image/icons.png);}
+
+
+body{background: #F2F2F5;color:#61687c;font-family: arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif}
+#header{background: #fff;height:60px;line-height: 60px;box-shadow: #e0e0e0 0 0 10px;position: relative;z-index:9999;}
+.headerLogo{float:left;margin-top:6px;height:50px;}
+.nav{float:left;}
+.nav li{float:left;margin-left:32px;}
+.nava{color:#414a60;height:60px;display: inline-block;}
+.headerRight{float:right;}
+.headerRight>a{margin-right:20px;color:#414a60;display: inline-block;height:60px;}
+.headerRight span a{padding:4px 11px;border:1px solid #55CBC4;border-radius: 15px;margin-left:13px;color:#9fa3b0;margin-right: 0}
+
+.contentLeft{width:300px;float:left;background:#F8F9FB;}
+.list{padding:20px 10px 20px 32px;position: relative;border:1px solid #F8F9FB;border-right:none;}
+.list dt{font-size: 18px;width:258px;margin-bottom:14px;}
+.list dt i{background-position: 6px 0;width:16px;height:16px;float: right;font-style: normal;margin-top:5px;margin-right: 22px}
+.list dd{line-height: 27px;float:left;margin-right:18px;}
+.list-item-all{width:220px;position: absolute;left:298px;top:-1px;display: none;z-index:8;border-top:1px solid #D1D4DB;border-bottom:1px solid #D1D4DB;}
+.all-top{position: absolute;left:1px;top:-1px;color:#55CBC4;width:222px;background: #fff;z-index:9;}
+.list-item-all li{border-left:1px solid #D1D4DB;border-right:1px solid #D1D4DB;width:220px;height:133px;line-height: 134px;background: #fdfdfe;font-size: 18px;}
+.list-item-all li span{cursor:pointer;width:182px;height:100%;display: inline-block;padding-left:40px;}
+.all-top li{width:221px;display: none;border:none;border-top:1px solid #D1D4DB;border-bottom:1px solid #D1D4DB;background: #fff}
+.item{display:none;padding:20px 36px;width:536px;background:#fff;line-height: 16px;/* height:1290px; */border:1px solid #D1D4DB; border-left:none;}
+.item{position: absolute;left:222px;top:-1px;}
+.item dl{margin-bottom:30px;}
+.item dt{font-size: 16px;width:536px;margin-bottom: 0}
+.item dd{float:left;margin-right:30px;font-size:14px;}
+.item dd a{color:#9fa3b0;}
+.item dd a:hover{color:#55CBC4;}
+
+
+
+
+
+.active{color:#55CBC4;}
+a:hover{color:#55CBC4;transition: all linear .2s;}
+.headerRight span a:hover{background:#55CBC4;transition:all linear .2s;color:#fff; }
